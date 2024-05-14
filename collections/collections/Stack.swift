@@ -7,16 +7,16 @@
 /// - `push`, which adds an element to the collection.
 /// - `pop`, which removes and returns the most recently added element.
 /// - `top`, which returns the most recently added element without removing it.
-struct Stack<Element> {
+public struct Stack<Element> {
     private var elements: [Element] = []
 
     /// A boolean value indicating whether the stack is empty.
-    var isEmpty: Bool {
+    public var isEmpty: Bool {
         elements.isEmpty
     }
 
     /// The number of elements in the stack.
-    var count: Int {
+    public var count: Int {
         elements.count
     }
 
@@ -25,7 +25,7 @@ struct Stack<Element> {
     /// - Parameter element: The element to be added.
     ///
     /// - Complexity: O(1) on average; In the worst case O(`N`) where `N` is the number of elements in the stack.
-    mutating func push(_ element: Element) {
+    public mutating func push(_ element: Element) {
         elements.append(element)
     }
 
@@ -34,7 +34,7 @@ struct Stack<Element> {
     /// - Returns: The removed element, or `nil` if the stack is empty.
     ///
     /// - Complexity: O(1).
-    mutating func pop() -> Element? {
+    public mutating func pop() -> Element? {
         elements.popLast()
     }
 
@@ -43,7 +43,7 @@ struct Stack<Element> {
     /// - Returns: The value element of element removed from the top of the stack, or `nil` if the stack is empty.
     ///
     /// - Complexity: O(1).
-    func top() -> Element? {
+    public func top() -> Element? {
         elements.last
     }
 }
