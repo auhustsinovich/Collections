@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A568BE402BF378DD001D7589 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A568BE3F2BF378DD001D7589 /* Stack.swift */; };
+		A568BE442BF37A64001D7589 /* StackStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A568BE432BF37A64001D7589 /* StackStatistics.swift */; };
 		A5F814572BEFF92C00639B03 /* collections.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F814562BEFF92C00639B03 /* collections.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A568BE3F2BF378DD001D7589 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		A568BE432BF37A64001D7589 /* StackStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatistics.swift; sourceTree = "<group>"; };
 		A5F814532BEFF92C00639B03 /* collections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = collections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F814562BEFF92C00639B03 /* collections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = collections.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,6 +51,7 @@
 			children = (
 				A5F814562BEFF92C00639B03 /* collections.h */,
 				A568BE3F2BF378DD001D7589 /* Stack.swift */,
+				A568BE432BF37A64001D7589 /* StackStatistics.swift */,
 			);
 			path = collections;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A568BE402BF378DD001D7589 /* Stack.swift in Sources */,
+				A568BE442BF37A64001D7589 /* StackStatistics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
