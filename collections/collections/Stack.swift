@@ -8,7 +8,15 @@
 /// - `pop`, which removes and returns the most recently added element.
 /// - `top`, which returns the most recently added element without removing it.
 public struct Stack<Element> {
-    private var elements: [Element] = []
+    private var elements: [Element]
+
+    /// Creates a new instance of the stack with initial elements.
+    /// - Parameter elements: Elements to store in the stack.
+    /// The initial elements to be added to the stack
+    /// in the order they appear in the array.
+    public init(_ elements: [Element] = []) {
+        self.elements = elements
+    }
 
     /// A boolean value indicating whether the stack is empty.
     public var isEmpty: Bool {
