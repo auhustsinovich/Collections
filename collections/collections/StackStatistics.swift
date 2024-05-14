@@ -9,8 +9,19 @@
 /// - `top`, which returns the most recently added element without removing it.
 /// - `minimum`, which allows effective finding the minimum in the collection of elements.
 public struct StackStatistics<Element: Comparable> {
-    private var elements = Stack<Element>()
-    private var minimumElements = Stack<Element>()
+    private var elements: Stack<Element>
+    private var minimumElements: Stack<Element>
+
+    /// Creates a new instance of the `StackStatistics` with initial elements.
+    /// - Parameter elements: Elements to store in the stack.
+    /// The initial elements to be added to the stack
+    /// in the order they appear in the array.
+    public init(_ elements: [Element] = []) {
+        self.elements = Stack()
+        minimumElements = Stack()
+
+        elements.forEach { push($0) }
+    }
 
     /// The minimum element in the stack.
     /// - Returns: The minimum element in the stack. If the stack is empty, returns `nil`.
