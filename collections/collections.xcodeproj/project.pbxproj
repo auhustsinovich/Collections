@@ -50,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5572D6F2BF3CE52002E0BF5 /* Stacks */ = {
+			isa = PBXGroup;
+			children = (
+				A568BE3F2BF378DD001D7589 /* Stack.swift */,
+				A568BE432BF37A64001D7589 /* StackStatistics.swift */,
+			);
+			path = Stacks;
+			sourceTree = "<group>";
+		};
 		A565112B2BF37C2400A6F771 /* collectionsTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,8 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				A5F814562BEFF92C00639B03 /* collections.h */,
-				A568BE3F2BF378DD001D7589 /* Stack.swift */,
-				A568BE432BF37A64001D7589 /* StackStatistics.swift */,
+				A5572D6F2BF3CE52002E0BF5 /* Stacks */,
 			);
 			path = collections;
 			sourceTree = "<group>";
