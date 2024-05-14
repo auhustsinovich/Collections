@@ -57,6 +57,7 @@ public struct StackStatistics<Element: Comparable> {
     /// - Returns: The removed element, or `nil` if the stack is empty.
     ///
     /// - Complexity: O(1).
+    @discardableResult
     public mutating func pop() -> Element? {
         minimumElements.pop()
         return elements.pop()
