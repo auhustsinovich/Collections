@@ -63,4 +63,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For further assistance please contact:
 
 - Email: auhustsinovich.d@gmail.com
-- GitHub: [auhustsinovich](https://github.com/auhustsinovich)
