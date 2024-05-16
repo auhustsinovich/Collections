@@ -2,10 +2,6 @@ import XCTest
 import collections
 
 final class StackPopMethodTests: XCTestCase {
-    override func setUp() {
-        stack = Stack<Int>()
-    }
-
     func testPopReturnsLastAddedElement() {
         // Given
         let elementToAdd = 1

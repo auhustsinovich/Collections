@@ -2,10 +2,6 @@ import XCTest
 import collections
 
 final class StackPushMethodTests: XCTestCase {
-    override func setUp() {
-        stack = Stack<Int>()
-    }
-
     func testPushAddsOneElementWhenPushCalledOneTime() {
         // Given
         let stackSizeBeforePush = stack.count
