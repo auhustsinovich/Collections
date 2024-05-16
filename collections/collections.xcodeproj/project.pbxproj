@@ -16,13 +16,13 @@
 		A565112E2BF37C2400A6F771 /* collections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F814532BEFF92C00639B03 /* collections.framework */; };
 		A568BE402BF378DD001D7589 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A568BE3F2BF378DD001D7589 /* Stack.swift */; };
 		A568BE442BF37A64001D7589 /* StackStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A568BE432BF37A64001D7589 /* StackStatistics.swift */; };
-		A59FB9FC2BF6241A0057E92C /* StackStatisticsCountPropertyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59FB9F42BF6241A0057E92C /* StackStatisticsCountPropertyTests.swift */; };
-		A59FB9FD2BF6241A0057E92C /* StackStatisticsIsEmptyPropertyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59FB9F52BF6241A0057E92C /* StackStatisticsIsEmptyPropertyTests.swift */; };
-		A59FB9FE2BF6241A0057E92C /* StackStatisticsMinimumElementMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59FB9F62BF6241A0057E92C /* StackStatisticsMinimumElementMethodTests.swift */; };
-		A59FB9FF2BF6241A0057E92C /* StackStatisticsPopMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59FB9F72BF6241A0057E92C /* StackStatisticsPopMethodTests.swift */; };
-		A59FBA002BF6241A0057E92C /* StackStatisticsPushMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59FB9F82BF6241A0057E92C /* StackStatisticsPushMethodTests.swift */; };
-		A59FBA012BF6241A0057E92C /* StackStatisticsTopMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59FB9F92BF6241A0057E92C /* StackStatisticsTopMethodTests.swift */; };
-		A59FBA022BF6241A0057E92C /* StackStatisticsWithVariousGenericParameterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59FB9FA2BF6241A0057E92C /* StackStatisticsWithVariousGenericParameterTests.swift */; };
+		A5CE8E372BF6888B00204180 /* StackStatisticsCountPropertyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CE8E362BF6888B00204180 /* StackStatisticsCountPropertyTests.swift */; };
+		A5CE8E392BF688B600204180 /* StackStatisticsIsEmptyPropertyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CE8E382BF688B600204180 /* StackStatisticsIsEmptyPropertyTests.swift */; };
+		A5CE8E3B2BF688CF00204180 /* StackStatisticsMinimumElementMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CE8E3A2BF688CF00204180 /* StackStatisticsMinimumElementMethodTests.swift */; };
+		A5CE8E3D2BF688EC00204180 /* StackStatisticsPopMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CE8E3C2BF688EC00204180 /* StackStatisticsPopMethodTests.swift */; };
+		A5CE8E3F2BF6890000204180 /* StackStatisticsPushMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CE8E3E2BF6890000204180 /* StackStatisticsPushMethodTests.swift */; };
+		A5CE8E412BF6892B00204180 /* StackStatisticsTopMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CE8E402BF6892B00204180 /* StackStatisticsTopMethodTests.swift */; };
+		A5CE8E432BF6894500204180 /* StackStatisticsWithVariousGenericParameterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CE8E422BF6894500204180 /* StackStatisticsWithVariousGenericParameterTests.swift */; };
 		A5F814572BEFF92C00639B03 /* collections.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F814562BEFF92C00639B03 /* collections.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -46,13 +46,13 @@
 		A565112A2BF37C2400A6F771 /* collectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collectionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A568BE3F2BF378DD001D7589 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		A568BE432BF37A64001D7589 /* StackStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatistics.swift; sourceTree = "<group>"; };
-		A59FB9F42BF6241A0057E92C /* StackStatisticsCountPropertyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackStatisticsCountPropertyTests.swift; sourceTree = "<group>"; };
-		A59FB9F52BF6241A0057E92C /* StackStatisticsIsEmptyPropertyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackStatisticsIsEmptyPropertyTests.swift; sourceTree = "<group>"; };
-		A59FB9F62BF6241A0057E92C /* StackStatisticsMinimumElementMethodTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackStatisticsMinimumElementMethodTests.swift; sourceTree = "<group>"; };
-		A59FB9F72BF6241A0057E92C /* StackStatisticsPopMethodTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackStatisticsPopMethodTests.swift; sourceTree = "<group>"; };
-		A59FB9F82BF6241A0057E92C /* StackStatisticsPushMethodTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackStatisticsPushMethodTests.swift; sourceTree = "<group>"; };
-		A59FB9F92BF6241A0057E92C /* StackStatisticsTopMethodTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackStatisticsTopMethodTests.swift; sourceTree = "<group>"; };
-		A59FB9FA2BF6241A0057E92C /* StackStatisticsWithVariousGenericParameterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackStatisticsWithVariousGenericParameterTests.swift; sourceTree = "<group>"; };
+		A5CE8E362BF6888B00204180 /* StackStatisticsCountPropertyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsCountPropertyTests.swift; sourceTree = "<group>"; };
+		A5CE8E382BF688B600204180 /* StackStatisticsIsEmptyPropertyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsIsEmptyPropertyTests.swift; sourceTree = "<group>"; };
+		A5CE8E3A2BF688CF00204180 /* StackStatisticsMinimumElementMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsMinimumElementMethodTests.swift; sourceTree = "<group>"; };
+		A5CE8E3C2BF688EC00204180 /* StackStatisticsPopMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsPopMethodTests.swift; sourceTree = "<group>"; };
+		A5CE8E3E2BF6890000204180 /* StackStatisticsPushMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsPushMethodTests.swift; sourceTree = "<group>"; };
+		A5CE8E402BF6892B00204180 /* StackStatisticsTopMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsTopMethodTests.swift; sourceTree = "<group>"; };
+		A5CE8E422BF6894500204180 /* StackStatisticsWithVariousGenericParameterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsWithVariousGenericParameterTests.swift; sourceTree = "<group>"; };
 		A5F814532BEFF92C00639B03 /* collections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = collections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F814562BEFF92C00639B03 /* collections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = collections.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,21 +102,21 @@
 			isa = PBXGroup;
 			children = (
 				A51C860B2BF3BD73005B12EA /* Stack */,
-				A59FB9FB2BF6241A0057E92C /* StackStatistics */,
+				A5CE8E352BF6885500204180 /* StackStatistics */,
 			);
 			path = collectionsTests;
 			sourceTree = "<group>";
 		};
-		A59FB9FB2BF6241A0057E92C /* StackStatistics */ = {
+		A5CE8E352BF6885500204180 /* StackStatistics */ = {
 			isa = PBXGroup;
 			children = (
-				A59FB9F42BF6241A0057E92C /* StackStatisticsCountPropertyTests.swift */,
-				A59FB9F52BF6241A0057E92C /* StackStatisticsIsEmptyPropertyTests.swift */,
-				A59FB9F62BF6241A0057E92C /* StackStatisticsMinimumElementMethodTests.swift */,
-				A59FB9F72BF6241A0057E92C /* StackStatisticsPopMethodTests.swift */,
-				A59FB9F82BF6241A0057E92C /* StackStatisticsPushMethodTests.swift */,
-				A59FB9F92BF6241A0057E92C /* StackStatisticsTopMethodTests.swift */,
-				A59FB9FA2BF6241A0057E92C /* StackStatisticsWithVariousGenericParameterTests.swift */,
+				A5CE8E422BF6894500204180 /* StackStatisticsWithVariousGenericParameterTests.swift */,
+				A5CE8E3A2BF688CF00204180 /* StackStatisticsMinimumElementMethodTests.swift */,
+				A5CE8E382BF688B600204180 /* StackStatisticsIsEmptyPropertyTests.swift */,
+				A5CE8E362BF6888B00204180 /* StackStatisticsCountPropertyTests.swift */,
+				A5CE8E3E2BF6890000204180 /* StackStatisticsPushMethodTests.swift */,
+				A5CE8E3C2BF688EC00204180 /* StackStatisticsPopMethodTests.swift */,
+				A5CE8E402BF6892B00204180 /* StackStatisticsTopMethodTests.swift */,
 			);
 			path = StackStatistics;
 			sourceTree = "<group>";
@@ -259,8 +259,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5CE8E3D2BF688EC00204180 /* StackStatisticsPopMethodTests.swift in Sources */,
+				A5CE8E3B2BF688CF00204180 /* StackStatisticsMinimumElementMethodTests.swift in Sources */,
+				A5CE8E412BF6892B00204180 /* StackStatisticsTopMethodTests.swift in Sources */,
+				A5CE8E432BF6894500204180 /* StackStatisticsWithVariousGenericParameterTests.swift in Sources */,
+				A5CE8E392BF688B600204180 /* StackStatisticsIsEmptyPropertyTests.swift in Sources */,
+				A5CE8E372BF6888B00204180 /* StackStatisticsCountPropertyTests.swift in Sources */,
 				A51C86112BF3BE0A005B12EA /* StackPopMethodTests.swift in Sources */,
 				A51C86132BF3BE3B005B12EA /* StackTopMethodTests.swift in Sources */,
+				A5CE8E3F2BF6890000204180 /* StackStatisticsPushMethodTests.swift in Sources */,
 				A51C86082BF3BCD2005B12EA /* StackWithVariousGenericParameterTests.swift in Sources */,
 				A51C860D2BF3BDCC005B12EA /* StackCountPropertyTests.swift in Sources */,
 				A51C860A2BF3BD6F005B12EA /* StackIsEmptyPropertyTests.swift in Sources */,
