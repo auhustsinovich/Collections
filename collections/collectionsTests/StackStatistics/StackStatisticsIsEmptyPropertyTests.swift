@@ -2,10 +2,6 @@ import collections
 import XCTest
 
 final class StackStatisticsIsEmptyPropertyTests: XCTestCase {
-    override func setUp() {
-        stack = StackStatistics<Int>()
-    }
-
     func testIsEmptyReturnsTrueWhenStackHasNoElements() {
         // Given empty stack
 

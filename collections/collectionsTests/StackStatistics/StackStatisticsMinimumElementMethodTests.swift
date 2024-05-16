@@ -2,10 +2,6 @@ import collections
 import XCTest
 
 final class StackStatisticsMinimumElementMethodTests: XCTestCase {
-    override func setUp() {
-        stack = StackStatistics<Int>()
-    }
-
     func testMinimumReturnsNilWhenStackIsEmpty() {
         // Given empty stack
 

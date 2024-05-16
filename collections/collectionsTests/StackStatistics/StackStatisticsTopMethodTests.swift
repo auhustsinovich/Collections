@@ -2,10 +2,6 @@ import collections
 import XCTest
 
 final class StackStatisticsTopMethodTests: XCTestCase {
-    override func setUp() {
-        stack = StackStatistics<Int>()
-    }
-
     func testTopReturnsElementThatWasAdded() {
         // Given
         let elementToAdd = 7
