@@ -1,5 +1,5 @@
-import XCTest
 import collections
+import XCTest
 
 final class StackIsEmptyPropertyTests: XCTestCase {
     func testIsEmptyReturnsTrueWhenStackHasNoElements() {

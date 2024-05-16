@@ -1,5 +1,5 @@
-import XCTest
 import collections
+import XCTest
 
 final class StackTopMethodTests: XCTestCase {
     func testTopReturnsElementThatWasAdded() {
@@ -27,7 +27,7 @@ final class StackTopMethodTests: XCTestCase {
         let stackSizeBeforeTop = stack.count
 
         // When
-        let _ = stack.top()
+        _ = stack.top()
         let expectedStackSizeAfterTop = stack.count
 
         // Then

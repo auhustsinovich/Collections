@@ -1,5 +1,5 @@
-import XCTest
 import collections
+import XCTest
 
 final class StackPushMethodTests: XCTestCase {
     func testPushAddsOneElementWhenPushCalledOneTime() {

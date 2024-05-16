@@ -1,11 +1,11 @@
-import XCTest
 import collections
+import XCTest
 
 final class StackWithVariousGenericParameterTests: XCTestCase {
     func testCreatesStackWithDifferentTypes() {
         // Given
-        let _ = Stack<Int>()
-        let _ = Stack<Double>()
-        let _ = Stack<String>()
+        _ = Stack<Int>()
+        _ = Stack<Double>()
+        _ = Stack<String>()
     }
 }
