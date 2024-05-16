@@ -6,7 +6,7 @@ A repository featuring a variety of Last-In-First-Out (LIFO) data structures, of
 
 ## Purpose
 
-The primary goal of this framework is to provide a robust and efficient implementation of a stack, a fundamental data structure, and its variant with statistics. This can be used in various applications where LIFO access to elements is required, such as algorithm implementations and more.
+The primary goal of this framework is to provide a robust and efficient implementation of a stack, a fundamental data structure, and its variations. This can be used in various applications where LIFO access to elements is required, such as algorithm implementations and more.
 
 ## Software requirements
 
