@@ -101,8 +101,11 @@
 		A565112B2BF37C2400A6F771 /* collectionsTests */ = {
 			isa = PBXGroup;
 			children = (
-				A51C860B2BF3BD73005B12EA /* Stack */,
+<<<<<<< HEAD
 				A59FB9FB2BF6241A0057E92C /* StackStatistics */,
+=======
+				A51C860B2BF3BD73005B12EA /* Stack */,
+>>>>>>> main
 			);
 			path = collectionsTests;
 			sourceTree = "<group>";
@@ -259,12 +262,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
+				A59FB9FE2BF6241A0057E92C /* StackStatisticsMinimumElementMethodTests.swift in Sources */,
+				A59FB9FD2BF6241A0057E92C /* StackStatisticsIsEmptyPropertyTests.swift in Sources */,
+				A59FBA022BF6241A0057E92C /* StackStatisticsWithVariousGenericParameterTests.swift in Sources */,
+				A59FBA012BF6241A0057E92C /* StackStatisticsTopMethodTests.swift in Sources */,
+				A59FBA002BF6241A0057E92C /* StackStatisticsPushMethodTests.swift in Sources */,
+				A59FB9FF2BF6241A0057E92C /* StackStatisticsPopMethodTests.swift in Sources */,
+				A59FB9FC2BF6241A0057E92C /* StackStatisticsCountPropertyTests.swift in Sources */,
+=======
 				A51C86112BF3BE0A005B12EA /* StackPopMethodTests.swift in Sources */,
 				A51C86132BF3BE3B005B12EA /* StackTopMethodTests.swift in Sources */,
 				A51C86082BF3BCD2005B12EA /* StackWithVariousGenericParameterTests.swift in Sources */,
 				A51C860D2BF3BDCC005B12EA /* StackCountPropertyTests.swift in Sources */,
 				A51C860A2BF3BD6F005B12EA /* StackIsEmptyPropertyTests.swift in Sources */,
 				A51C860F2BF3BDEF005B12EA /* StackPushMethodTests.swift in Sources */,
+>>>>>>> main
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
