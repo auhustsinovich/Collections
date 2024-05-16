@@ -13,13 +13,6 @@
 		A51C860F2BF3BDEF005B12EA /* StackPushMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51C860E2BF3BDEF005B12EA /* StackPushMethodTests.swift */; };
 		A51C86112BF3BE0A005B12EA /* StackPopMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51C86102BF3BE0A005B12EA /* StackPopMethodTests.swift */; };
 		A51C86132BF3BE3B005B12EA /* StackTopMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51C86122BF3BE3B005B12EA /* StackTopMethodTests.swift */; };
-		A51C86152BF3BF60005B12EA /* StackStatisticsWithVariousGenericParameterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51C86142BF3BF60005B12EA /* StackStatisticsWithVariousGenericParameterTests.swift */; };
-		A51C86172BF3BF81005B12EA /* StackStatisticsMinimumElementMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51C86162BF3BF81005B12EA /* StackStatisticsMinimumElementMethodTests.swift */; };
-		A51C861A2BF3BFDE005B12EA /* StackStatisticsIsEmptyPropertyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51C86192BF3BFDE005B12EA /* StackStatisticsIsEmptyPropertyTests.swift */; };
-		A51C861C2BF3BFFF005B12EA /* StackStatisticsCountPropertyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51C861B2BF3BFFF005B12EA /* StackStatisticsCountPropertyTests.swift */; };
-		A51C861E2BF3C02B005B12EA /* StackStatisticsPushMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51C861D2BF3C02B005B12EA /* StackStatisticsPushMethodTests.swift */; };
-		A51C86202BF3C103005B12EA /* StackStatisticsPopMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51C861F2BF3C103005B12EA /* StackStatisticsPopMethodTests.swift */; };
-		A51C86222BF3C129005B12EA /* StackStatisticsTopMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51C86212BF3C129005B12EA /* StackStatisticsTopMethodTests.swift */; };
 		A565112E2BF37C2400A6F771 /* collections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F814532BEFF92C00639B03 /* collections.framework */; };
 		A568BE402BF378DD001D7589 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A568BE3F2BF378DD001D7589 /* Stack.swift */; };
 		A568BE442BF37A64001D7589 /* StackStatistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A568BE432BF37A64001D7589 /* StackStatistics.swift */; };
@@ -43,13 +36,6 @@
 		A51C860E2BF3BDEF005B12EA /* StackPushMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackPushMethodTests.swift; sourceTree = "<group>"; };
 		A51C86102BF3BE0A005B12EA /* StackPopMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackPopMethodTests.swift; sourceTree = "<group>"; };
 		A51C86122BF3BE3B005B12EA /* StackTopMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTopMethodTests.swift; sourceTree = "<group>"; };
-		A51C86142BF3BF60005B12EA /* StackStatisticsWithVariousGenericParameterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsWithVariousGenericParameterTests.swift; sourceTree = "<group>"; };
-		A51C86162BF3BF81005B12EA /* StackStatisticsMinimumElementMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsMinimumElementMethodTests.swift; sourceTree = "<group>"; };
-		A51C86192BF3BFDE005B12EA /* StackStatisticsIsEmptyPropertyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsIsEmptyPropertyTests.swift; sourceTree = "<group>"; };
-		A51C861B2BF3BFFF005B12EA /* StackStatisticsCountPropertyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsCountPropertyTests.swift; sourceTree = "<group>"; };
-		A51C861D2BF3C02B005B12EA /* StackStatisticsPushMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsPushMethodTests.swift; sourceTree = "<group>"; };
-		A51C861F2BF3C103005B12EA /* StackStatisticsPopMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsPopMethodTests.swift; sourceTree = "<group>"; };
-		A51C86212BF3C129005B12EA /* StackStatisticsTopMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatisticsTopMethodTests.swift; sourceTree = "<group>"; };
 		A565112A2BF37C2400A6F771 /* collectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collectionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A568BE3F2BF378DD001D7589 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		A568BE432BF37A64001D7589 /* StackStatistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackStatistics.swift; sourceTree = "<group>"; };
@@ -89,20 +75,6 @@
 			path = Stack;
 			sourceTree = "<group>";
 		};
-		A51C86182BF3BF8E005B12EA /* StackStatistics */ = {
-			isa = PBXGroup;
-			children = (
-				A51C86142BF3BF60005B12EA /* StackStatisticsWithVariousGenericParameterTests.swift */,
-				A51C86162BF3BF81005B12EA /* StackStatisticsMinimumElementMethodTests.swift */,
-				A51C86192BF3BFDE005B12EA /* StackStatisticsIsEmptyPropertyTests.swift */,
-				A51C861B2BF3BFFF005B12EA /* StackStatisticsCountPropertyTests.swift */,
-				A51C861D2BF3C02B005B12EA /* StackStatisticsPushMethodTests.swift */,
-				A51C861F2BF3C103005B12EA /* StackStatisticsPopMethodTests.swift */,
-				A51C86212BF3C129005B12EA /* StackStatisticsTopMethodTests.swift */,
-			);
-			path = StackStatistics;
-			sourceTree = "<group>";
-		};
 		A5572D702BF3CF58002E0BF5 /* Stacks */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				A51C860B2BF3BD73005B12EA /* Stack */,
-				A51C86182BF3BF8E005B12EA /* StackStatistics */,
 			);
 			path = collectionsTests;
 			sourceTree = "<group>";
@@ -261,16 +232,9 @@
 			files = (
 				A51C86112BF3BE0A005B12EA /* StackPopMethodTests.swift in Sources */,
 				A51C86132BF3BE3B005B12EA /* StackTopMethodTests.swift in Sources */,
-				A51C86152BF3BF60005B12EA /* StackStatisticsWithVariousGenericParameterTests.swift in Sources */,
-				A51C861A2BF3BFDE005B12EA /* StackStatisticsIsEmptyPropertyTests.swift in Sources */,
 				A51C86082BF3BCD2005B12EA /* StackWithVariousGenericParameterTests.swift in Sources */,
-				A51C86172BF3BF81005B12EA /* StackStatisticsMinimumElementMethodTests.swift in Sources */,
-				A51C861E2BF3C02B005B12EA /* StackStatisticsPushMethodTests.swift in Sources */,
-				A51C86222BF3C129005B12EA /* StackStatisticsTopMethodTests.swift in Sources */,
 				A51C860D2BF3BDCC005B12EA /* StackCountPropertyTests.swift in Sources */,
 				A51C860A2BF3BD6F005B12EA /* StackIsEmptyPropertyTests.swift in Sources */,
-				A51C861C2BF3BFFF005B12EA /* StackStatisticsCountPropertyTests.swift in Sources */,
-				A51C86202BF3C103005B12EA /* StackStatisticsPopMethodTests.swift in Sources */,
 				A51C860F2BF3BDEF005B12EA /* StackPushMethodTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
