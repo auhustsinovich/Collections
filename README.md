@@ -27,7 +27,7 @@ This project uses [Semantic Versioning](https://semver.org/). The format is `MAJ
 To install the framework:
 
 1. Download the latest release version of `collections.xcframework` from this repository.
-1. Add `collections.xcframework` to your project(We recommend selecting the `Do not embed` option).
+1. Add `collections.xcframework` to your project(We recommend selecting the `Do Not Embed` option).
 
 ## Usage
 
