@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A55F03E42BF808970054DB26 /* collections.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55F03E32BF808970054DB26 /* collections.xcframework */; };
 		A568BE392BF3650E001D7589 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A568BE382BF3650E001D7589 /* main.swift */; };
-		A5D0617E2BF7B342003F6A2E /* collections.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0617D2BF7B342003F6A2E /* collections.xcframework */; };
-		A5D0617F2BF7B342003F6A2E /* collections.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0617D2BF7B342003F6A2E /* collections.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,23 +21,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		A5D061812BF7B342003F6A2E /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				A5D0617F2BF7B342003F6A2E /* collections.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A55F03E32BF808970054DB26 /* collections.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = collections.xcframework; path = Frameworks/collections.xcframework; sourceTree = "<group>"; };
+		A55F03E62BF808970054DB26 /* DemoApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DemoApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		A568BE382BF3650E001D7589 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		A5D0617D2BF7B342003F6A2E /* collections.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = collections.xcframework; path = Frameworks/collections.xcframework; sourceTree = "<group>"; };
-		A5D061802BF7B342003F6A2E /* DemoApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = DemoApp; path = "/Users/daniil/Desktop/BELIEVE/ios-engineer/collections/DemoApp/build/Debug/DemoApp"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,18 +34,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5D0617E2BF7B342003F6A2E /* collections.xcframework in Frameworks */,
+				A55F03E42BF808970054DB26 /* collections.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A55F03E22BF808970054DB26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A55F03E32BF808970054DB26 /* collections.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A568BE2C2BF3650E001D7589 = {
 			isa = PBXGroup;
 			children = (
 				A568BE372BF3650E001D7589 /* DemoApp */,
-				A5D0617C2BF7B342003F6A2E /* Frameworks */,
+				A55F03E22BF808970054DB26 /* Frameworks */,
+				A55F03E62BF808970054DB26 /* DemoApp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,14 +64,6 @@
 				A568BE382BF3650E001D7589 /* main.swift */,
 			);
 			path = DemoApp;
-			sourceTree = "<group>";
-		};
-		A5D0617C2BF7B342003F6A2E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A5D0617D2BF7B342003F6A2E /* collections.xcframework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,7 +76,6 @@
 				A568BE312BF3650E001D7589 /* Sources */,
 				A568BE322BF3650E001D7589 /* Frameworks */,
 				A568BE332BF3650E001D7589 /* CopyFiles */,
-				A5D061812BF7B342003F6A2E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -95,7 +83,7 @@
 			);
 			name = DemoApp;
 			productName = DemoApp;
-			productReference = A5D061802BF7B342003F6A2E /* DemoApp */;
+			productReference = A55F03E62BF808970054DB26 /* DemoApp */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
