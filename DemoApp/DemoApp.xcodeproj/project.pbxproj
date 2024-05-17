@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A568BE392BF3650E001D7589 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A568BE382BF3650E001D7589 /* main.swift */; };
+		A5D0617E2BF7B342003F6A2E /* collections.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0617D2BF7B342003F6A2E /* collections.xcframework */; };
+		A5D0617F2BF7B342003F6A2E /* collections.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5D0617D2BF7B342003F6A2E /* collections.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,11 +22,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		A5D061812BF7B342003F6A2E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A5D0617F2BF7B342003F6A2E /* collections.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A568BE352BF3650E001D7589 /* DemoApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DemoApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		A568BE382BF3650E001D7589 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A5D0617D2BF7B342003F6A2E /* collections.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = collections.xcframework; path = Frameworks/collections.xcframework; sourceTree = "<group>"; };
+		A5D061802BF7B342003F6A2E /* DemoApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = DemoApp; path = "/Users/daniil/Desktop/BELIEVE/ios-engineer/collections/DemoApp/build/Debug/DemoApp"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5D0617E2BF7B342003F6A2E /* collections.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,16 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				A568BE372BF3650E001D7589 /* DemoApp */,
-				A568BE362BF3650E001D7589 /* Products */,
+				A5D0617C2BF7B342003F6A2E /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		A568BE362BF3650E001D7589 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A568BE352BF3650E001D7589 /* DemoApp */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		A568BE372BF3650E001D7589 /* DemoApp */ = {
@@ -60,6 +67,14 @@
 				A568BE382BF3650E001D7589 /* main.swift */,
 			);
 			path = DemoApp;
+			sourceTree = "<group>";
+		};
+		A5D0617C2BF7B342003F6A2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5D0617D2BF7B342003F6A2E /* collections.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,6 +87,7 @@
 				A568BE312BF3650E001D7589 /* Sources */,
 				A568BE322BF3650E001D7589 /* Frameworks */,
 				A568BE332BF3650E001D7589 /* CopyFiles */,
+				A5D061812BF7B342003F6A2E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -79,7 +95,7 @@
 			);
 			name = DemoApp;
 			productName = DemoApp;
-			productReference = A568BE352BF3650E001D7589 /* DemoApp */;
+			productReference = A5D061802BF7B342003F6A2E /* DemoApp */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +122,7 @@
 				Base,
 			);
 			mainGroup = A568BE2C2BF3650E001D7589;
-			productRefGroup = A568BE362BF3650E001D7589 /* Products */;
+			productRefGroup = A568BE2C2BF3650E001D7589;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
