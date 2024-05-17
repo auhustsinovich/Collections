@@ -15,8 +15,8 @@ archive_framework() {
     platform="${1}"
 
     xcodebuild archive \
-        -project collections/collections.xcodeproj \
-        -scheme collections \
+        -project "${PROJECT_FOLDER}/${FRAMEWORK_NAME}.xcodeproj" \
+        -scheme "${FRAMEWORK_NAME}" \
         -destination "generic/platform="${platform}"" \
         -archivePath ""${ARCHIVE_FOLDER}"/"${FRAMEWORK_NAME}"-"${platform}""
 }
