@@ -8,6 +8,7 @@ readonly ARCHIVE_FOLDER="../archives"
 readonly OUTPUT_FOLDER="../generate"
 readonly FRAMEWORK_NAME="collections"
 readonly IOS_ARCHIVE_NAME="${FRAMEWORK_NAME}-iOS.xcarchive"
+readonly IOS_SIMULATOR_ARCHIVE_NAME="${FRAMEWORK_NAME}-iOS_Simulator.xcarchive"
 readonly MACOS_ARCHIVE_NAME="${FRAMEWORK_NAME}-macOS.xcarchive"
 
 # creating .xcarchive
@@ -22,6 +23,7 @@ archive_framework() {
 }
 
 archive_framework iOS
+archive_framework iOS_Simulator
 archive_framework macOS
 
 rm -rf "${OUTPUT_FOLDER}"
@@ -29,6 +31,8 @@ rm -rf "${OUTPUT_FOLDER}"
 # creating .xcframework
 xcodebuild -create-xcframework \
     -archive ""${ARCHIVE_FOLDER}"/"${FRAMEWORK_NAME}"-iOS.xcarchive" \
+    -framework ""${FRAMEWORK_NAME}".framework" \
+    -archive ""${ARCHIVE_FOLDER}"/"${FRAMEWORK_NAME}"-iOS_Simulator.xcarchive" \
     -framework ""${FRAMEWORK_NAME}".framework" \
     -archive ""${ARCHIVE_FOLDER}"/"${FRAMEWORK_NAME}"-macOS.xcarchive" \
     -framework ""${FRAMEWORK_NAME}".framework" \
