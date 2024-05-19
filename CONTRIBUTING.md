@@ -51,7 +51,7 @@ Use `SwiftLint` and `SwiftFormat` to enforce project code style. Please ensure y
 
 1. **Branching**: Always create a new branch for your work.
    
-2. **Style Guide Compliance**: Ensure your code follows [projects style guide](https://github.com/auhustsinovich/collections/edit/add-contributeDocumentation/CONTRIBUTING.md#code-style-guide).
+2. **Style Guide Compliance**: Ensure your code follows [projects style guide](https://github.com/auhustsinovich/collections/blob/add-contributeDocumentation/CONTRIBUTING.md#code-style-guide).
 
 3. **Clear and Descriptive PR Title**: Use a title that accurately describes the changes.
    
