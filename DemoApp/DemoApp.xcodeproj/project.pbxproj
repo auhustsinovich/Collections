@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A534CAA82BFA1D8D0041D5EC /* collections.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A534CAA72BFA1D8D0041D5EC /* collections.xcframework */; };
 		A568BE392BF3650E001D7589 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A568BE382BF3650E001D7589 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A568BE352BF3650E001D7589 /* DemoApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DemoApp; sourceTree = BUILT_PRODUCTS_DIR; };
+		A534CAA72BFA1D8D0041D5EC /* collections.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = collections.xcframework; path = Frameworks/collections.xcframework; sourceTree = "<group>"; };
+		A534CAAA2BFA1D8D0041D5EC /* DemoApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DemoApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		A568BE382BF3650E001D7589 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -32,26 +34,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A534CAA82BFA1D8D0041D5EC /* collections.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A534CAA62BFA1D8D0041D5EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A534CAA72BFA1D8D0041D5EC /* collections.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A568BE2C2BF3650E001D7589 = {
 			isa = PBXGroup;
 			children = (
 				A568BE372BF3650E001D7589 /* DemoApp */,
-				A568BE362BF3650E001D7589 /* Products */,
+				A534CAA62BFA1D8D0041D5EC /* Frameworks */,
+				A534CAAA2BFA1D8D0041D5EC /* DemoApp */,
 			);
-			sourceTree = "<group>";
-		};
-		A568BE362BF3650E001D7589 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A568BE352BF3650E001D7589 /* DemoApp */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		A568BE372BF3650E001D7589 /* DemoApp */ = {
@@ -79,7 +83,7 @@
 			);
 			name = DemoApp;
 			productName = DemoApp;
-			productReference = A568BE352BF3650E001D7589 /* DemoApp */;
+			productReference = A534CAAA2BFA1D8D0041D5EC /* DemoApp */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +110,7 @@
 				Base,
 			);
 			mainGroup = A568BE2C2BF3650E001D7589;
-			productRefGroup = A568BE362BF3650E001D7589 /* Products */;
+			productRefGroup = A568BE2C2BF3650E001D7589;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
