@@ -10,24 +10,6 @@ The development environment consists of:
 - SwiftLint `0.53.0`
 - SwiftFormat `0.53.8`
 
-## Code Style Guide
-
-Use `SwiftLint` and `SwiftFormat` to enforce project code style. Please ensure your code adheres to these guidelines before submitting.
-
-### Applying Style Guide Rules
-
-1. **SwiftFormat**: Run `swiftformat --config <path_to_swiftformat_config> <path_to_check>`, where `<path_to_swiftformat_config>` is the path to the `.swiftformat` file in the repository, and `<path_to_check>` is the path to the files or directories to be processed.
-   
-2. **SwiftLint**: Run `swiftlint --config <path_to_swiftlint_config> <path_to_check>`, where `<path_to_swiftlint_config>` is the path to the `.swiftlint.yml` file in the repository, and `<path_to_check>` is the path to the files or directories to be processed.
-
-**Alternatively**, you can use the provided script to automate this:
-   ```bash
-   chmod u+x ./scripts/run-linters.sh
-   ./scripts/run-linters.sh
-   ```
-
-3. **Fix Warnings**: Address all warnings, or ignore them only if absolutely necessary.
-
 ## Reporting Issues
 
 1. **Update to the Latest Version**: Ensure you're using the most recent release. I may have already fixed the issue.
@@ -64,6 +46,24 @@ Use `SwiftLint` and `SwiftFormat` to enforce project code style. Please ensure y
 7. **Review and Approval**: A team member must review and approve your pull request before merging.
    
 8. **Include Tests**: Add unit tests for new features or bug fixes whenever possible.
+
+## Code Style Guide
+
+Use `SwiftLint` and `SwiftFormat` to enforce project code style. Please ensure your code adheres to these guidelines before submitting.
+
+### Applying Style Guide Rules
+
+1. **SwiftFormat**: Run `swiftformat --config <path_to_swiftformat_config> <path_to_check>`, where `<path_to_swiftformat_config>` is the path to the `.swiftformat` file in the repository, and `<path_to_check>` is the path to the files or directories to be processed.
+   
+2. **SwiftLint**: Run `swiftlint --config <path_to_swiftlint_config> <path_to_check>`, where `<path_to_swiftlint_config>` is the path to the `.swiftlint.yml` file in the repository, and `<path_to_check>` is the path to the files or directories to be processed.
+
+**Alternatively**, you can use the provided script to automate this:
+   ```bash
+   chmod u+x ./scripts/run-linters.sh
+   ./scripts/run-linters.sh
+   ```
+
+3. **Fix Warnings**: Address all warnings, or ignore them only if absolutely necessary.
 
 ## Questions
 
