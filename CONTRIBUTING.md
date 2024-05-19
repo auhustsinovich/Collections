@@ -51,11 +51,7 @@ Use `SwiftLint` and `SwiftFormat` to enforce project code style. Please ensure y
 
 1. **Branching**: Always create a new branch for your work.
    
-2. **Style Guide Compliance**: Ensure your code follows projects style guide. You can use the script, mentioned above to automate this:
-   ```bash
-   chmod u+x ./scripts/run-linters.sh
-   ./scripts/run-linters.sh
-   ```
+2. **Style Guide Compliance**: Ensure your code follows [projects style guide](https://github.com/auhustsinovich/collections/edit/add-contributeDocumentation/CONTRIBUTING.md#code-style-guide).
 
 3. **Clear and Descriptive PR Title**: Use a title that accurately describes the changes.
    
