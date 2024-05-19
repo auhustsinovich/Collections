@@ -51,6 +51,9 @@ print(statStack.minimum)  // Output: 5
 print(statStack.pop())    // Output: 20
 print(statStack.minimum)  // Output: 5
 ```
+## Contributing
+
+Contributions are welcome! Please read the [`CONTRIBUTING.md`](./CONTRIBUTING.md) file for guidelines on how to contribute to this project.
 
 ## License
 
