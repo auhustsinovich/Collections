@@ -29,7 +29,7 @@ If you want to build the binary `.xcframework` file by yourself, run the `genera
 
 ## Usage examples
 
-### `Stack` structure example
+### `Stack`
 
 ```swift
 var stack = Stack<Int>()
@@ -40,7 +40,7 @@ print(stack.pop())    // Output: 20
 print(stack.isEmpty)  // Output: false
 ```
 
-### `StackStatistics` structure example
+### `StackStatistics`
 
 ```swift
 var statStack = StackStatistics<Int>()
