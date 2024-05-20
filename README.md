@@ -2,7 +2,7 @@
 
 ## About 
 
-The `collections` framework featuring a variety of Last-In-First-Out (LIFO) data structures, such as `Stack` and `StackStatistics` offering efficient methods for handling and manipulating data with LIFO behavior.
+The `collections` framework featuring Last-In-First-Out (LIFO) `Stack` and `StackStatistics` data structures, offering various methods for handling and manipulating data with LIFO behavior.
 
 ## Software requirements
 
