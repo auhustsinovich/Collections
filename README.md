@@ -19,6 +19,8 @@ This project uses [Semantic Versioning 2.0.0](https://semver.org/).
 1. Download the release of the `collections.xcframework` from the GitHub releases page or you may [build](https://github.com/auhustsinovich/collections/tree/edit-readme?tab=readme-ov-file#build-xcframework-by-yourself) `.xcframework` from the source code by yourself.
 1. Add `collections.xcframework` to your project (select the `Do Not Embed` option).
 
+### or
+
 ### Build `.xcframework` by yourself
 
 To build the binary `.xcframework`, run the `generate-xcframework.sh` script in a [scripts](./scripts/) folder:
