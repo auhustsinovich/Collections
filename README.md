@@ -21,7 +21,12 @@ This project uses [Semantic Versioning 2.0.0](https://semver.org/).
 
 ### Build `.xcframework` by yourself
 
-To build the binary `.xcframework`, run the `generate-xcframework.sh` script in a [scripts](./scripts/) folder or follow [instructions](https://developer.apple.com/documentation/xcode/creating-a-multi-platform-binary-framework-bundle#Create-archives-for-frameworks-or-libraries) provided by Apple.
+To build the binary `.xcframework`, run the `generate-xcframework.sh` script in a [scripts](./scripts/) folder:
+```bash
+chmod u+x ./scripts/generate-xcframework.sh
+./scripts/generate-xcframework.sh
+```
+or follow [instructions](https://developer.apple.com/documentation/xcode/creating-a-multi-platform-binary-framework-bundle#Create-archives-for-frameworks-or-libraries) provided by Apple.
 
 ## Usage examples
 
