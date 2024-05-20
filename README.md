@@ -14,12 +14,12 @@ This project uses [Semantic Versioning 2.0.0](https://semver.org/).
 
 ## Installation
 
-### Install the framework:
+### Download the binary
 
 1. Download the release of the `collections.xcframework` from the GitHub releases page.
 1. Add `collections.xcframework` to your project (select the `Do Not Embed` option).
 
-### Build `.xcframework` by yourself:
+### Build `.xcframework` by yourself
 
 If you want to build the binary `.xcframework` file by yourself, run the `generate-xcframework.sh` script in a [scripts](./scripts/) folder or follow [instructions](https://developer.apple.com/documentation/xcode/creating-a-multi-platform-binary-framework-bundle#Create-archives-for-frameworks-or-libraries) provided by Apple.
 
