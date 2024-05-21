@@ -1,12 +1,27 @@
-# collections
+# `collections` framework for iOS/macOS
 
-## About 
 
-The `collections` framework featuring Last-In-First-Out (LIFO) `Stack` and `StackStatistics` data structures, offering various methods for handling and manipulating data with LIFO behavior.
+## About
+
+The `collections` framework provides `Stack` and `StackStatistics` data structures. These structures offer methods for handling and manipulating data with Last-In-First-Out (LIFO) behavior, see [Stack (Wiki page)](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)).
+
+### `Stack` has three main operations:
+
+- `push`, which adds an element to the collection.
+- `pop`, which removes and returns the most recently added element.
+- `top`, which returns the most recently added element without removing it.
+- `minimum`, which allows effective finding the minimum in the collection of elements.
+
+### `StackStatistics` has four main operations:
+
+- `push`, which adds an element to the collection.
+- `pop`, which removes and returns the most recently added element.
+- `top`, which returns the most recently added element without removing it.
+- `minimum`, which allows effective finding the minimum in the collection of elements.
 
 ## Software requirements
 
-To run the code you need Swift version `5.10` or later, Xcode version `15.3` or later.
+The code has been tested with Swift version `5.10` and Xcode version `15.3`. However, you may try running it on different versions as well.
 
 ## Versioning
 
@@ -14,21 +29,21 @@ This project uses [Semantic Versioning 2.0.0](https://semver.org/).
 
 ## Installation
 
-### Download the binary
+#### You have two options to choose from:
 
-1. Download the release of the `collections.xcframework` from the GitHub releases page or you may [build](https://github.com/auhustsinovich/collections/tree/edit-readme?tab=readme-ov-file#build-xcframework-by-yourself) `.xcframework` from the source code by yourself.
-1. Add `collections.xcframework` to your project (select the `Do Not Embed` option).
+- ### Download the binary
 
-### or
+  1. Download the release of the `collections.xcframework` from the GitHub releases page.
+  1. Add `collections.xcframework` to your project (select the `Do Not Embed` option).
 
-### Build `.xcframework` by yourself
+- ### Build `.xcframework` by yourself
 
-To build the binary `.xcframework`, run the `generate-xcframework.sh` script in a [scripts](./scripts/) folder:
-```bash
-chmod u+x ./scripts/generate-xcframework.sh
-./scripts/generate-xcframework.sh
-```
-or follow [instructions](https://developer.apple.com/documentation/xcode/creating-a-multi-platform-binary-framework-bundle#Create-archives-for-frameworks-or-libraries) provided by Apple.
+  To build the binary `.xcframework`, run the `generate-xcframework.sh` script in a [scripts](./scripts/) folder:
+  ```bash
+  chmod u+x ./scripts/generate-xcframework.sh
+  ./scripts/generate-xcframework.sh
+  ```
+  or follow [instructions](https://developer.apple.com/documentation/xcode/creating-a-multi-platform-binary-framework-bundle#Create-archives-for-frameworks-or-libraries) provided by   Apple.
 
 ## Usage examples
 
