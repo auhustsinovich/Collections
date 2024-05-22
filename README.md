@@ -10,7 +10,6 @@ The `collections` framework provides `Stack` and `StackStatistics` data structur
 - `push`, which adds an element to the collection.
 - `pop`, which removes and returns the most recently added element.
 - `top`, which returns the most recently added element without removing it.
-- `minimum`, which allows effective finding the minimum in the collection of elements.
 
 ### `StackStatistics` has four main operations:
 
