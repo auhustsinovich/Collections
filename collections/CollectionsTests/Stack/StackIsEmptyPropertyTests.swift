@@ -1,4 +1,4 @@
-import collections
+import Collections
 import XCTest
 
 final class StackIsEmptyPropertyTests: XCTestCase {
