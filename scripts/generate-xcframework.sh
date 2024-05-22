@@ -3,10 +3,10 @@
 readonly SCRIPT_FOLDER=$(dirname -- "$0")
 cd "$SCRIPT_FOLDER" || exit
 
-readonly PROJECT_FOLDER="../collections"
+readonly PROJECT_FOLDER="../Collections"
 readonly ARCHIVE_FOLDER="../archives"
 readonly OUTPUT_FOLDER="../generate"
-readonly FRAMEWORK_NAME="collections"
+readonly FRAMEWORK_NAME="Collections"
 readonly IOS_ARCHIVE_NAME="${FRAMEWORK_NAME}-iOS.xcarchive"
 readonly IOS_SIMULATOR_ARCHIVE_NAME="${FRAMEWORK_NAME}-iOS_Simulator.xcarchive"
 readonly MACOS_ARCHIVE_NAME="${FRAMEWORK_NAME}-macOS.xcarchive"
