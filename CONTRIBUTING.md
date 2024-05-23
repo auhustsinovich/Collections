@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-Thank you for considering contributing `collections` project! Following these guidelines helps maintain a high standard of quality for the codebase.
+Thank you for considering contributing `Collections` project! Following these guidelines helps maintain a high standard of quality for the codebase.
 
 ## Environment
 
@@ -25,7 +25,7 @@ The development environment consists of:
    - Expected behavior.
 
 5. **Environment Information**: Provide details about your setup, such as:
-   - `collections` version
+   - `Collections` version
    - OS version
    - Xcode version
 

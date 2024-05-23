@@ -1,4 +1,4 @@
-import collections
+import Collections
 
 var stack = Stack<Int>()
 var statsStack = StackStatistics<Int>()
