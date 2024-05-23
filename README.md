@@ -1,9 +1,9 @@
-# `collections` framework for iOS/macOS
+# `Collections` framework for iOS/macOS
 
 
 ## About
 
-The `collections` framework provides `Stack` and `StackStatistics` data structures. These structures offer methods for handling and manipulating data with Last-In-First-Out (LIFO) behavior, see [Stack (Wiki page)](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)).
+The `Collections` framework provides `Stack` and `StackStatistics` data structures. These structures offer methods for handling and manipulating data with Last-In-First-Out (LIFO) behavior, see [Stack (Wiki page)](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)).
 
 ### `Stack` has three main operations:
 
@@ -32,8 +32,8 @@ This project uses [Semantic Versioning 2.0.0](https://semver.org/).
 
 - ### Download the binary
 
-  1. Download the release of the `collections.xcframework` from the GitHub releases page.
-  1. Add `collections.xcframework` to your project (select the `Do Not Embed` option).
+  1. Download the release of the `Collections.xcframework` from the GitHub releases page.
+  1. Add `Collections.xcframework` to your project (select the `Do Not Embed` option).
 
 - ### Build `.xcframework` by yourself
 
