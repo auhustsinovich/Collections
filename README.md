@@ -44,6 +44,8 @@ This project uses [Semantic Versioning 2.0.0](https://semver.org/).
   ```
   or follow [instructions](https://developer.apple.com/documentation/xcode/creating-a-multi-platform-binary-framework-bundle#Create-archives-for-frameworks-or-libraries) provided by   Apple.
 
+The generated binary files will be saved in the `generate` folder located in the root directory of `Collections` project.
+
 ## Usage examples
 
 ### `Stack`
