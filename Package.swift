@@ -12,7 +12,8 @@ let package = Package(
         .library(
             name: "Collections",
             type: .static,
-            targets: ["Collections"]),
+            targets: ["Collections"]
+        ),
     ],
     targets: [
         .target(
