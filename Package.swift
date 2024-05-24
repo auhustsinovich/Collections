@@ -11,12 +11,13 @@ let package = Package(
     products: [
         .library(
             name: "Collections",
+            type: .static,
             targets: ["Collections"]),
     ],
     targets: [
         .target(
             name: "Collections",
-                path: "Collections/Collections/"
+            path: "Collections/Collections/"
         ),
         .testTarget(
             name: "CollectionTests",
