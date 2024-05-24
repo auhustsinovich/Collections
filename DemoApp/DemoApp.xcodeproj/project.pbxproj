@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A52C241C2C0100E900A9D5E3 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = A52C241B2C0100E900A9D5E3 /* Collections */; };
 		A568BE392BF3650E001D7589 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A568BE382BF3650E001D7589 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A52C241C2C0100E900A9D5E3 /* Collections in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +82,9 @@
 			dependencies = (
 			);
 			name = DemoApp;
+			packageProductDependencies = (
+				A52C241B2C0100E900A9D5E3 /* Collections */,
+			);
 			productName = DemoApp;
 			productReference = A5113E782BFE783D0011B5E5 /* DemoApp */;
 			productType = "com.apple.product-type.tool";
@@ -108,6 +113,9 @@
 				Base,
 			);
 			mainGroup = A568BE2C2BF3650E001D7589;
+			packageReferences = (
+				A52C241A2C0100E900A9D5E3 /* XCLocalSwiftPackageReference ".." */,
+			);
 			productRefGroup = A568BE2C2BF3650E001D7589;
 			projectDirPath = "";
 			projectRoot = "";
@@ -289,6 +297,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A52C241A2C0100E900A9D5E3 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A52C241B2C0100E900A9D5E3 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Collections;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A568BE2D2BF3650E001D7589 /* Project object */;
 }
