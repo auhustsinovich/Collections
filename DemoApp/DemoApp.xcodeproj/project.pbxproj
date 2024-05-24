@@ -24,7 +24,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A5113E752BFE783D0011B5E5 /* Collections.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Collections.xcframework; path = Frameworks/Collections.xcframework; sourceTree = "<group>"; };
 		A5113E782BFE783D0011B5E5 /* DemoApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DemoApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		A568BE382BF3650E001D7589 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,19 +40,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A5113E742BFE783D0011B5E5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A5113E752BFE783D0011B5E5 /* Collections.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		A568BE2C2BF3650E001D7589 = {
 			isa = PBXGroup;
 			children = (
 				A568BE372BF3650E001D7589 /* DemoApp */,
-				A5113E742BFE783D0011B5E5 /* Frameworks */,
 				A5113E782BFE783D0011B5E5 /* DemoApp */,
 			);
 			sourceTree = "<group>";
