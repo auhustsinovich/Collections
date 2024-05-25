@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A5113E762BFE783D0011B5E5 /* Collections.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5113E752BFE783D0011B5E5 /* Collections.xcframework */; };
 		A568BE392BF3650E001D7589 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A568BE382BF3650E001D7589 /* main.swift */; };
+		A5A40A2D2C014A8A0047A7D9 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = A5A40A2C2C014A8A0047A7D9 /* Collections */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A5113E752BFE783D0011B5E5 /* Collections.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Collections.xcframework; path = Frameworks/Collections.xcframework; sourceTree = "<group>"; };
 		A5113E782BFE783D0011B5E5 /* DemoApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DemoApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		A568BE382BF3650E001D7589 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -34,26 +33,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5113E762BFE783D0011B5E5 /* Collections.xcframework in Frameworks */,
+				A5A40A2D2C014A8A0047A7D9 /* Collections in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A5113E742BFE783D0011B5E5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A5113E752BFE783D0011B5E5 /* Collections.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		A568BE2C2BF3650E001D7589 = {
 			isa = PBXGroup;
 			children = (
 				A568BE372BF3650E001D7589 /* DemoApp */,
-				A5113E742BFE783D0011B5E5 /* Frameworks */,
 				A5113E782BFE783D0011B5E5 /* DemoApp */,
 			);
 			sourceTree = "<group>";
@@ -82,6 +72,9 @@
 			dependencies = (
 			);
 			name = DemoApp;
+			packageProductDependencies = (
+				A5A40A2C2C014A8A0047A7D9 /* Collections */,
+			);
 			productName = DemoApp;
 			productReference = A5113E782BFE783D0011B5E5 /* DemoApp */;
 			productType = "com.apple.product-type.tool";
@@ -110,6 +103,9 @@
 				Base,
 			);
 			mainGroup = A568BE2C2BF3650E001D7589;
+			packageReferences = (
+				A5A40A2B2C014A8A0047A7D9 /* XCLocalSwiftPackageReference ".." */,
+			);
 			productRefGroup = A568BE2C2BF3650E001D7589;
 			projectDirPath = "";
 			projectRoot = "";
@@ -291,6 +287,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A5A40A2B2C014A8A0047A7D9 /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A5A40A2C2C014A8A0047A7D9 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Collections;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A568BE2D2BF3650E001D7589 /* Project object */;
 }
