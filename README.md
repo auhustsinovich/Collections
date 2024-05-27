@@ -47,7 +47,7 @@ To add `Collections` to your Swift package, include it in the `dependencies` arr
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/YourUsername/Collections", from: "0.2.0")
+    .package(url: "https://github.com/auhustsinovich/Collections", from: "<version>")
 ]
 ```
 
