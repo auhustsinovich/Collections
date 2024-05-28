@@ -37,8 +37,8 @@ The `Collections` framework supports installation via [Swift Package Manager](ht
 #### Adding `Collections` as a dependency in your Xcode project
 
 1. Open your Xcode project.
-1. Select "File" → "Add Packages...".
-1. In the search bar enter the URL of the `Collections` repository: `https://github.com/auhustsinovich/Collections/`.
+1. Select "File" → "Add Package Dependencies...".
+1. In the search bar enter the URL of the `Collections` repository: `https://github.com/auhustsinovich/Collections`.
 1. Choose the dependency rule (e.g., "Up to Next Major" with the current version) and add the package.
 
 #### Adding `Collections` to your `Package.swift`
@@ -53,8 +53,8 @@ dependencies: [
 
 ### Download the binary
 
-1. Download the release of the `Collections.xcframework` from the GitHub releases page.
-1. Add `Collections.xcframework` to your project (select the `Do Not Embed` option).
+1. Download the release of the `Collections.xcframework` from the `Collections` [releases page](https://github.com/auhustsinovich/Collections/releases).
+1. Add `Collections.xcframework` to your project (The `Do Not Embed` is the recommended option).
 
 ### Build `.xcframework` by yourself
 
