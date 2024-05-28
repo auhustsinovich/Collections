@@ -28,23 +28,45 @@ This project uses [Semantic Versioning 2.0.0](https://semver.org/).
 
 ## Installation
 
-#### You have two options to choose from:
+You have several options to integrate `Collections` into your project:
 
-- ### Download the binary
+### Swift Package Manager
 
-  1. Download the release of the `Collections.xcframework` from the GitHub releases page.
-  1. Add `Collections.xcframework` to your project (select the `Do Not Embed` option).
+The `Collections` framework supports installation via [Swift Package Manager](https://swift.org/package-manager/) (SPM) from version `0.3.0`. 
 
-- ### Build `.xcframework` by yourself
+#### Adding `Collections` as a dependency in your Xcode project
 
-  To build the binary `.xcframework`, run the `generate-xcframework.sh` script in a [scripts](./scripts/) folder:
-  ```bash
-  chmod u+x ./scripts/generate-xcframework.sh
-  ./scripts/generate-xcframework.sh
-  ```
-  or follow [instructions](https://developer.apple.com/documentation/xcode/creating-a-multi-platform-binary-framework-bundle#Create-archives-for-frameworks-or-libraries) provided by   Apple.
+1. Open your Xcode project.
+1. Select "File" → "Add Package Dependencies...".
+1. In the search bar enter the URL of the `Collections` repository: `https://github.com/auhustsinovich/Collections`.
+1. Choose the dependency rule (e.g., "Up to Next Major" with the current version) and add the package.
 
-The generated binary files will be saved in the `generate` folder located in the root directory of `Collections` project.
+#### Adding `Collections` to your `Package.swift`
+
+To add `Collections` to your Swift package, include it in the `dependencies` array of your `Package.swift` file:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/auhustsinovich/Collections", from: "<version>")
+]
+```
+
+### Download the binary
+
+1. Download the release of the `Collections.xcframework` from the `Collections` [releases page](https://github.com/auhustsinovich/Collections/releases).
+1. Add `Collections.xcframework` to your project (The `Do Not Embed` is the recommended option).
+
+### Build `.xcframework` by yourself
+
+To build the binary `.xcframework`, run the `generate-xcframework.sh` script in the [scripts](./scripts/) folder:
+
+```bash
+chmod u+x ./scripts/generate-xcframework.sh
+./scripts/generate-xcframework.sh
+```
+or follow [instructions](https://developer.apple.com/documentation/xcode/creating-a-multi-platform-binary-framework-bundle#Create-archives-for-frameworks-or-libraries) provided by Apple.
+
+The generated binary files will be saved in the `generate` folder located in the root directory of the `Collections` project.
 
 ## Usage examples
 
