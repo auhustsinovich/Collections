@@ -1,7 +1,7 @@
 /// An abstract data type that serves as a Last-In-First-Out (LIFO) collection of elements, see
 /// [Stack (Wiki page)](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)).
 /// That means the last added element will be removed first.
-/// Adding (push) and removing (pop) operations occur only at one end of the stack, referred to as the `top` of the stack.
+/// Adding (push) and removing (pop) operations occur only at one end of the stack, referred to as the `top` of stack.
 ///
 /// The type has three main operations:
 /// - `push`, which adds an element to the collection.
