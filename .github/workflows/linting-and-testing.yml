@@ -38,4 +38,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Run tests
-      run: xcodebuild test -project ./hw-playgrounds/hw07-implementingEngineerListProcessorApp/EngineerListProcessor/EngineerListProcessor.xcodeproj -scheme EngineerListProcessorCoreTests -configuration Debug test
+      run: xcodebuild test -project ./Collections/Collections.xcodeproj -scheme CollectionsTests -configuration Debug test
