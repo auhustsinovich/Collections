@@ -1,7 +1,7 @@
 # Version limitations
 
 --swiftversion 5.10
---minversion 0.53.8
+--minversion 0.54.0
 
 # Customized format options
 
@@ -73,6 +73,7 @@
 --enable conditionalAssignment
 --enable consecutiveBlankLines
 --enable consecutiveSpaces
+--enable consistentSwitchCaseSpacing
 --enable docComments
 --enable duplicateImports
 --enable elseOnSameLine
@@ -110,10 +111,12 @@
 --enable redundantOptionalBinding
 --enable redundantParens
 --enable redundantPattern
+--enable redundantProperty
 --enable redundantRawValues
 --enable redundantReturn
 --enable redundantSelf
 --enable redundantStaticSelf
+--enable redundantTypedThrows
 --enable redundantVoidReturnType
 --enable semicolons
 --enable sortDeclarations
@@ -130,8 +133,8 @@
 --enable spaceInsideComments
 --enable spaceInsideGenerics
 --enable spaceInsideParens
---enable strongifiedSelf
 --enable strongOutlets
+--enable strongifiedSelf
 --enable todos
 --enable trailingClosures
 --enable trailingCommas
@@ -149,6 +152,7 @@
 # Disabled rules
 
 --disable acronyms
+--disable blankLineAfterSwitchCase
 --disable blankLinesBetweenImports
 --disable blockComments
 --disable extensionAccessControl
