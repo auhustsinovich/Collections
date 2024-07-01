@@ -250,5 +250,5 @@ large_tuple:
   error: 4
 
 line_length:
-  warning: 120
+  warning: 100
   error: 200
