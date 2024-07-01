@@ -49,10 +49,10 @@ public struct Stack<Element> {
         elements.popLast()
     }
 
-    /// Returns the element at the top of the stack (the most recently added element) 
+    /// Returns the element at the top of the stack (the most recently added element)
     /// without removing it.
     ///
-    /// - Returns: The value element of element removed from the top of the stack, or `nil` 
+    /// - Returns: The value element of element removed from the top of the stack, or `nil`
     /// if the stack is empty.
     ///
     /// - Complexity: O(1).
