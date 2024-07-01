@@ -1,0 +1,41 @@
+name: CI Workflow
+
+on: [pull_request]
+
+env:
+  DEVELOPER_DIR: /Applications/Xcode_15.4.app/Contents/Developer
+
+jobs:
+  Linters-Check:
+    runs-on: macos-14
+    continue-on-error: true
+    steps:
+    - name: Update brew
+      run: brew update
+    - name: Set up cache
+      id: brew-cache
+      uses: actions/cache@v4
+      with:
+        path: |
+          ~/Library/Caches/Homebrew/swiftformat*
+          ~/Library/Caches/Homebrew/swiftlint*
+          ~/Library/Caches/Homebrew/downloads/*swiftformat*
+          ~/Library/Caches/Homebrew/downloads/*swiftlint*
+        key: linters-brew-cache-key
+    - name: Install Linters
+      run: |
+        brew install swiftlint
+        brew install swiftformat
+    - name: Checkout Project
+      uses: actions/checkout@v4
+    - name: Make run-linters.sh executable
+      run: chmod +x ./scripts/run-linters.sh
+    - name: Run linters
+      run: ./scripts/run-linters.sh
+
+  Tests-Check:
+    runs-on: macos-14
+    steps:
+    - uses: actions/checkout@v4
+    - name: Run tests
+      run: xcodebuild test -project ./hw-playgrounds/hw07-implementingEngineerListProcessorApp/EngineerListProcessor/EngineerListProcessor.xcodeproj -scheme EngineerListProcessorCoreTests -configuration Debug test
