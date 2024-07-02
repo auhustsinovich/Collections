@@ -1,7 +1,7 @@
 # Version limitations
 
 --swiftversion 5.10
---minversion 0.53.8
+--minversion 0.54.0
 
 # Customized format options
 
@@ -18,10 +18,14 @@
 --lineaftermarks true
 --typeblanklines remove
 --allman false
+--condassignment after-property
+--doccomments before-declarations
 --elseposition same-line
 --guardelse auto
 --emptybraces no-space
 --enumnamespaces always
+--dateformat system
+--timezone system
 --patternlet hoist
 --tabwidth unspecified
 --smarttabs enabled
@@ -33,12 +37,14 @@
 --someany false
 --anonymousforeach ignore
 --onelineforeach ignore
+--nilinit remove
 --self remove
 --closurevoid remove
 --semicolons inline
 --importgrouping alpha
 --operatorfunc spaced
 --ranges no-space
+--typedelimiter space-after
 --commas always
 --trimwhitespace always
 --shortoptionals except-properties
@@ -69,10 +75,11 @@
 --enable blankLinesAtStartOfScope
 --enable blankLinesBetweenChainedFunctions
 --enable blankLinesBetweenScopes
---enable braces 
+--enable braces
 --enable conditionalAssignment
 --enable consecutiveBlankLines
 --enable consecutiveSpaces
+--enable consistentSwitchCaseSpacing
 --enable docComments
 --enable duplicateImports
 --enable elseOnSameLine
@@ -110,10 +117,12 @@
 --enable redundantOptionalBinding
 --enable redundantParens
 --enable redundantPattern
+--enable redundantProperty
 --enable redundantRawValues
 --enable redundantReturn
 --enable redundantSelf
 --enable redundantStaticSelf
+--enable redundantTypedThrows
 --enable redundantVoidReturnType
 --enable semicolons
 --enable sortDeclarations
@@ -123,21 +132,21 @@
 --enable spaceAroundBrackets
 --enable spaceAroundComments
 --enable spaceAroundGenerics
---enable spaceAroundOperators 
+--enable spaceAroundOperators
 --enable spaceAroundParens
 --enable spaceInsideBraces
 --enable spaceInsideBrackets
 --enable spaceInsideComments
 --enable spaceInsideGenerics
 --enable spaceInsideParens
---enable strongifiedSelf
 --enable strongOutlets
+--enable strongifiedSelf
 --enable todos
 --enable trailingClosures
 --enable trailingCommas
 --enable trailingSpace
 --enable typeSugar
---enable unusedArguments 
+--enable unusedArguments
 --enable void
 --enable wrap
 --enable wrapArguments
@@ -149,6 +158,7 @@
 # Disabled rules
 
 --disable acronyms
+--disable blankLineAfterSwitchCase
 --disable blankLinesBetweenImports
 --disable blockComments
 --disable extensionAccessControl

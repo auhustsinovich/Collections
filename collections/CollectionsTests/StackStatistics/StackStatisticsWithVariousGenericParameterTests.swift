@@ -1,7 +1,7 @@
 import Collections
 import XCTest
 
-final class StackStatisticsWithVariousGenericParameterTests: XCTestCase {
+final class StackStatisticsWithGenericParameterTests: XCTestCase {
     func testCreatesStackWithDifferentTypes() {
         _ = StackStatistics<Int>()
         _ = StackStatistics<Double>()
